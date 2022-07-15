@@ -8,7 +8,7 @@ function App() {
         This is a WIP React Portfolio
       </h1>
 
-      <a href="https://trevortress.github.io/portfolio/">Thought Boxer</a>
+      <a href="https://thoughtboxer.herokuapp.com/">Thought Boxer</a>
     </div>
   );
 }
