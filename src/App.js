@@ -1,14 +1,26 @@
-import { Link } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
 import './index.css';
+
+import Home from './routes/Home';
+import About from './routes/About';
+import Contact from './routes/Contact';
+import Project from './routes/Project';
 
 function App() {
 	return (
-		<div className="App">
-			<h1>This is Trevor Tress' WIP React Portfolio</h1>
-
-			<a href="https://thoughtboxer.herokuapp.com/">Thought Boxer</a>
-		</div>
+		<>
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/project" element={<Project />} />
+				<Route path="/about" element={<About />} />
+				<Route path="/contact" element={<Contact />} />
+			</Routes>
+		</>
 	);
 }
 
 export default App;
+
+// <h1>This is Trevor Tress' WIP React Portfolio</h1>
+
+// <a href="https://thoughtboxer.herokuapp.com/">Thought Boxer</a>
