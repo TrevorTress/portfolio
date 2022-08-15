@@ -1,16 +1,14 @@
-import './App.css';
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
+import './index.css';
 
 function App() {
-  return (
-    <div className="App">
-      <h1>
-        This is Trevor Tress' WIP React Portfolio
-      </h1>
+	return (
+		<div className="App">
+			<h1>This is Trevor Tress' WIP React Portfolio</h1>
 
-      <a href="https://thoughtboxer.herokuapp.com/">Thought Boxer</a>
-    </div>
-  );
+			<a href="https://thoughtboxer.herokuapp.com/">Thought Boxer</a>
+		</div>
+	);
 }
 
 export default App;
