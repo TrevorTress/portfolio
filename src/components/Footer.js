@@ -20,7 +20,7 @@ const Footer = () => {
 							style={{ color: '#fff', marginRight: '2rem' }}
 						/>
 
-						<p>3280 Wains Way</p>
+						<p>3280 Wains Way, </p>
 						<p>Oakland, MI</p>
 					</div>
 
