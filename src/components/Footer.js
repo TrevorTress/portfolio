@@ -9,6 +9,8 @@ import {
 	FaLinkedin,
 } from 'react-icons/fa';
 
+import { AiFillGithub } from 'react-icons/ai';
+
 const Footer = () => {
 	return (
 		<div className="footer">
@@ -19,8 +21,6 @@ const Footer = () => {
 							size={20}
 							style={{ color: '#fff', marginRight: '2rem' }}
 						/>
-
-						<p>3280 Wains Way, </p>
 						<p>Oakland, MI</p>
 					</div>
 
@@ -41,6 +41,16 @@ const Footer = () => {
 								style={{ color: '#fff', marginRight: '2rem' }}
 							/>{' '}
 							trevor.tress@outlook.com
+						</h4>
+					</div>
+
+					<div className="email">
+						<h4>
+							<AiFillGithub
+								size={20}
+								style={{ color: '#fff', marginRight: '2rem' }}
+							/>{' '}
+							github.com/TrevorTress
 						</h4>
 					</div>
 				</div>
