@@ -43,38 +43,28 @@ const Footer = () => {
 							trevor.tress@outlook.com
 						</h4>
 					</div>
-
-					<div className="email">
-						<h4>
-							<AiFillGithub
-								size={20}
-								style={{ color: '#fff', marginRight: '2rem' }}
-							/>{' '}
-							github.com/TrevorTress
-						</h4>
-					</div>
 				</div>
 
 				<div className="right">
-					<h4>About the Developer</h4>
-					<p>ojvzoxjvzojxvoxzvjozxvjozxvcjoxzvcjzxopv</p>
+					<h4>About</h4>
+					<p>
+						I am a full-stack web developer specializing in
+						MERN-stack applications.
+					</p>
 					<div className="social">
-						<FaFacebook
-							size={30}
-							style={{ color: '#fff', marginRight: '1rem' }}
-						/>
-						<FaTwitter
-							size={30}
-							style={{ color: '#fff', marginRight: '1rem' }}
-						/>
-						<FaLinkedin
-							size={30}
-							style={{ color: '#fff', marginRight: '1rem' }}
-						/>
-						<FaFacebook
-							size={30}
-							style={{ color: '#fff', marginRight: '1rem' }}
-						/>
+						<a href="https://www.linkedin.com/in/trevortress/">
+							<FaLinkedin
+								size={30}
+								style={{ color: '#fff', marginRight: '1rem' }}
+							/>
+						</a>
+
+						<a href="https://github.com/TrevorTress">
+							<AiFillGithub
+								size={30}
+								style={{ color: '#fff', marginRight: '2rem' }}
+							/>
+						</a>
 					</div>
 				</div>
 			</div>
