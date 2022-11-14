@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.065a0435.css",
+    "main.js": "/portfolio/static/js/main.fcb19622.js",
+    "static/media/fork-that-orc.png": "/portfolio/static/media/fork-that-orc.76746954ab467d00903b.png",
+    "static/media/intro-bg.jpg": "/portfolio/static/media/intro-bg.cf2364827d8b8a98642e.jpg",
+    "static/media/thought-boxer.png": "/portfolio/static/media/thought-boxer.2112397a1214466fb569.png",
+    "static/media/stand-up-rpg.png": "/portfolio/static/media/stand-up-rpg.4499393639caa2581b8e.png",
+    "index.html": "/portfolio/index.html",
+    "main.065a0435.css.map": "/portfolio/static/css/main.065a0435.css.map",
+    "main.fcb19622.js.map": "/portfolio/static/js/main.fcb19622.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.065a0435.css",
+    "static/js/main.fcb19622.js"
+  ]
+}
